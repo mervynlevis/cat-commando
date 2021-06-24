@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cat Commando 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/ca2.css" />
+    <script src="static/level2.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">Cat Commando</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="level1.html">Level 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="level2.html">Level 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="level3.html">Level 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lives</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="lives" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">HP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="health" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Score</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Score</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="score" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">0</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="outcome" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </main>
+
+    <audio id="audio">
+      <source src="laser.mp3" type="audio" />
+    </audio>
+
+    <canvas width="512" height="512"></canvas>
+  </body>
+</html>
+
+<!-- CREDITS
+
+cat sprite // https://opengameart.org/content/cat-fighter-sprite-sheet
+
+dungeon sprites from https://0x72.itch.io/16x16-dungeon-tileset?download
+
+background and sound effects music from https://soundimage.org/looping-music/ -->
